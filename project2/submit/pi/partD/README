@@ -1,0 +1,11 @@
+Main.java is a further enhanced bug detection tool. Besides the functionality of the bug detection tool in part A and part C, Main.java in part D has a fifth optional parameter called T_UPRATIO which means the UnPaired Ratio Threshold.
+
+T_UPRATIO is passed as a integer in the range of 0 to 100. For example, if you want a 50% unpaired ratio threshold, you pass 50 as the fifth parameter into Main.
+
+You can use command 'make' to compile the java code as the Makefile is implemented.
+
+To execute the bug detection tool, use can either modify the verify.sh with a fifth argument passed into pipair or run the following command directly:
+
+java Main <callgraph_path> [T_SUPPORT] [T_CONFIDENCE] [LEVEL] [T_UPRATIO]
+
+LEVEL here means the depth of performing function inline(expansion of the scope) just the same as that of part C.

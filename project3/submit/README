@@ -1,0 +1,12 @@
+# Dataset
+The data we use in q2 and q3 are both the dataset acquired after running the preprocessing.py script.
+
+# Models
+1. The first model we use is Independently Recurrent Neural Network (IndRNN), which is referred from https://github.com/titu1994/Keras-IndRNN
+2. The second model we use is Hierarchical Attention Network(HAN), which is referred from https://github.com/richliao/textClassifier
+
+# Scripts
+To perform text classification, run `python defection_detect.py` which will apply IndRNN.
+
+
+

@@ -1,0 +1,3 @@
+#!/bin/sh
+opt -print-callgraph $1 1> /dev/null 2> $1.callgraph
+java -Xms128m -Xmx128m -cp .. Main $(pwd)/$1.callgraph $2 $3 $4 $5 2> /dev/null
