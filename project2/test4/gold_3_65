@@ -1,0 +1,3 @@
+bug: free in getPassWord, pair: (free, malloc), support: 4, confidence: 66.67%
+bug: free in main, pair: (free, malloc), support: 4, confidence: 66.67%
+bug: malloc in readFile, pair: (free, malloc), support: 4, confidence: 80.00%
